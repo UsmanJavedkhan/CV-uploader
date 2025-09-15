@@ -16,6 +16,7 @@ export default function ProfileCard({ fields }) {
           <p className="text-slate-500 text-sm">{fields.phone || "—"}</p>
         </div>
       </CardContent>
+      
     </Card>
   );
 }
